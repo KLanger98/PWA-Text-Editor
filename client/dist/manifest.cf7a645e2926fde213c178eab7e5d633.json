@@ -1,0 +1,24 @@
+{
+  "icons": [
+    {
+      "src": "auto/icon_512x512.3ca11a97eb7d90b61fc3db0f3c5dcdb6.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "auto/icon_128x128.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "128x128",
+      "type": "image/vnd.microsoft.icon",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "Just Another Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./",
+  "description": "Take notes with Javascript syntax highlighting!",
+  "background_color": "#7eb4e2",
+  "theme_color": "#7eb4e2"
+}
