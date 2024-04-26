@@ -4,21 +4,27 @@
       "src": "auto/icon_512x512.3ca11a97eb7d90b61fc3db0f3c5dcdb6.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "auto/icon_128x128.746db68de78df5d3feaeac6b6c757b2a.ico",
-      "sizes": "128x128",
+      "src": "auto/icon_144x144.19b168a73d43f68c912b884c5f934ea0.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "auto/icon_48x48.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "48x48",
       "type": "image/vnd.microsoft.icon",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ],
   "name": "Just Another Text Editor",
   "short_name": "JATE",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": "./",
+  "start_url": "/",
   "description": "Take notes with Javascript syntax highlighting!",
-  "background_color": "#7eb4e2",
-  "theme_color": "#7eb4e2"
+  "background_color": "#225ca3",
+  "theme_color": "#225ca3"
 }

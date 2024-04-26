@@ -35,22 +35,28 @@ module.exports = () => {
           {
             "src": "favicon.ico",
             "type": "image/png",
-            "sizes": "128x128",
-            "purpose": "any maskable"
+            "sizes": "48x48",
+            "purpose": "any"
           },
           {
-            "src": "src/images/logo.png",
+            "src": "/images/logo-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+          },
+          {
+            "src": "/images/logo.png",
             "type": "image/png",
             "sizes": "512x512",
-            "purpose": "any maskable"
+            "purpose": "any"
           }
         ],
         "orientation": "portrait",
         "display": "standalone",
-        "start_url": "./",
+        "start_url": "/",
         "description": "Take notes with Javascript syntax highlighting!",
-        "background_color": "#7eb4e2",
-        "theme_color": "#7eb4e2"
+        "background_color": "#225ca3",
+        "theme_color": "#225ca3"
       }),
     ],  
 
