@@ -1,0 +1,47 @@
+{
+  "icons": [
+    {
+      "src": "./assets/icons/icon_512x512.3ca11a97eb7d90b61fc3db0f3c5dcdb6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_192x192.1efd8d2a5218c9516adb7d6ff7907ac1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_144x144.ab7efc9f581cc30e64e4f939fafc9b57.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_96x96.97a96e0fc4eb2a8bec3b8d49d90f1d14.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_72x72.5ce881b822c24d7a04bcde1be19cb3e9.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_48x48.c06d2d41a4d444b74b868c6455f656a0.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_36x36.7867850024067e149b5622ce1f880add.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    }
+  ],
+  "name": "Just Another Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Take notes with Javascript syntax highlighting!",
+  "background_color": "#225ca3",
+  "theme_color": "#225ca3"
+}

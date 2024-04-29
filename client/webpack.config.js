@@ -16,6 +16,7 @@ module.exports = () => {
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
+      publicPath: './'
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -33,27 +34,15 @@ module.exports = () => {
         "name": "Just Another Text Editor",
         "icons": [
           {
-            "src": "favicon.ico",
+            "src": path.resolve('./src/images/logo.png'),
             "type": "image/png",
-            "sizes": "48x48",
-            "purpose": "any"
-          },
-          {
-            "src": "/images/logo-144x144.png",
-            "type": "image/png",
-            "sizes": "144x144",
-            "purpose": "any"
-          },
-          {
-            "src": "/images/logo.png",
-            "type": "image/png",
-            "sizes": "512x512",
-            "purpose": "any"
+            "sizes": [36, 48, 72, 96, 144, 192, 512],
+            "destination": path.join('assets', 'icons')
           }
         ],
         "orientation": "portrait",
         "display": "standalone",
-        "start_url": "/",
+        "start_url": ".",
         "description": "Take notes with Javascript syntax highlighting!",
         "background_color": "#225ca3",
         "theme_color": "#225ca3"

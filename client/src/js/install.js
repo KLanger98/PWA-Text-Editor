@@ -4,18 +4,18 @@ const butInstall = document.getElementById('buttonInstall');
 // TODO: Add an event handler to the `beforeinstallprompt` event
 window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
-    butInstall.style.visibility = 'visible';
-    
+
+    butInstall.addEventListener('click', async () => {
+    event.prompt();
+});
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
-butInstall.addEventListener('click', async (event) => {
-    event.prompt();
-    butInstall.setAttribute('diabled', true);
-    butInstall.textContent = "Installed!"
-});
+
 
 // TODO: Add an handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
-
+  butInstall.textContent = "Installed!"
+  butInstall.setAttribute('diabled', true);
+  console.log('👍', 'appinstalled', event);
 });
