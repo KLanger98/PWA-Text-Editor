@@ -4,6 +4,8 @@
 The following challenge was completed as a part of the Adelaide University Web Development Bootcamp. The project involved applying Progressive Web Application principles to a text editor. Webpack has been used to bundle the code to improve optimisation, apply loaders and implement plugins. For example, the Webpack PWA Manifest plugin has been used to assist with generating a 'Manifest.json' which will allow the application to be installable. 
 IndexedDB has also been implemented to allow the editor to function offline. A service worker has been used to precache assets upon loading.
 
+Find a deployed version of this application here: https://pwa-text-editor-g5r6.onrender.com/ 
+
 ## Installation
 If you would like to run this application in your local environment use the following steps:
 
@@ -17,5 +19,7 @@ If you would like to run this application in your local environment use the foll
 
 ## Usage
 When using this text editor, you will be able to write any javascript code in the editor and the program will ensure its persistance. By quitting the application and returning, your work will be saved and reloaded on return.
+
+You will be able to click the 'Install' button in the header which will prompt installation of the application as long as you are using google chrome. 
 
 
